@@ -1,0 +1,19 @@
+@startuml
+class Animal {
+    -name: String
+    -age: int
+    +Animal(name: String, age: int)
+    +displayDetails(): void
+    +getName(): String
+    +getAge(): int
+}
+
+class Mammal {
+    -hasFur: boolean
+    +Mammal(name: String, age: int, field: String)
+    +displayDetails(): void
+    +hasFur(): boolean
+}
+
+Animal <|-- Mammal
+@enduml

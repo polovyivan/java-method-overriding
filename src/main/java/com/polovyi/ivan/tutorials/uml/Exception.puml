@@ -1,0 +1,13 @@
+@startuml
+class Exception {
+}
+
+class IOException {
+}
+
+class FileSystemException {
+}
+
+Exception <|-- IOException
+IOException <|-- FileSystemException
+@enduml

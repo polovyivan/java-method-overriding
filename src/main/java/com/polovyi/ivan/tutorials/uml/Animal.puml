@@ -1,0 +1,10 @@
+@startuml
+class Animal {
+    -name: String
+    -age: int
+    +Animal(name: String, age: int)
+    +displayDetails(): void
+    +getName(): String
+    +getAge(): int
+}
+@enduml
